@@ -140,9 +140,12 @@ img {
   padding: 3%;
 }
 header {
-  width: 100%;
+  width: 60%;
+  height: 20vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: beige;
 }
 header h1 {
   text-align: center;
