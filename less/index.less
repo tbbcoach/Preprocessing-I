@@ -69,6 +69,17 @@ header {
 	background-color: beige;
 	margin-bottom: 5%;
 
+	nav {
+		display: flex;
+		justify-content: flex-end;
+
+		a {
+			padding: 0 3%;
+			text-decoration: none;
+		}
+		
+	}
+
 	h1 {
 		text-align: center;
 		font-size: 3rem;
@@ -78,6 +89,7 @@ header {
 
 .below-header {
 	background-color: beige;
+	width: 60%;
 
 	h3 {
 		font-size: 2rem;
@@ -90,9 +102,16 @@ header {
 }
 
 .middle-section {
+	display: flex;
 	border-top: 2px solid black;
+	width: 60%;
 	margin: 2%;
 	display: flex;
+
+	div {
+		width: 50%;
+
+	}
 
 	h2 {
 		font-size: 2rem;
@@ -103,21 +122,18 @@ header {
 			width: 50%;
 		}
 	}
+
+	#div {
+		justify-content: center;
 }
 
 .bottom-section {
 	border: 1px solid black;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 2%;
 
-	h2 {
-		margin: 0 40%;
-
-		ul {
-
-		}
-	}
 }
-
