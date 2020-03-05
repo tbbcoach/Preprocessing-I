@@ -214,6 +214,7 @@ header h1 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 2%;
+  background-color: beige;
 }
 .bottom-section h2 {
   font-size: 2rem;
