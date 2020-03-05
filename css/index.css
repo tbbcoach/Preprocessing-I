@@ -141,9 +141,13 @@ img {
 }
 header {
   width: 60%;
-  height: 15vh;
+  height: 25vh;
   background-color: beige;
   margin-bottom: 5%;
+}
+header img {
+  height: 25vh;
+  width: 25%;
 }
 header nav {
   display: flex;
@@ -164,6 +168,11 @@ header h1 {
 .below-header h3 {
   font-size: 2rem;
 }
+.below-header p {
+  margin: 3% 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
 .below-header button {
   background-color: lightgreen;
   color: black;
@@ -176,33 +185,33 @@ header h1 {
 }
 .middle-section div {
   width: 50%;
+  border: 1px solid black;
+  padding: 1% 2%;
+  margin: 2% 0;
 }
 .middle-section h2 {
   font-size: 2rem;
+  margin: 2% 0;
 }
 .middle-section h2 p {
   border: 1px solid black;
   margin: 2%;
-  width: 50%;
 }
-.middle-section #div {
-  justify-content: center;
+.middle-section #enjoy {
+  background-color: teal;
 }
-.middle-section .bottom-section {
+.middle-section #enjoy li {
+  list-style-type: disc;
+  padding: 1% 0;
+  font-size: 1.25 rem;
+}
+.bottom-section {
   border: 1px solid black;
+  margin: 2%;
   width: 60%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding-bottom: 2%;
-}
-.middle-section .bottom-section h2 {
-  margin: 2% 40%;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.middle-section li {
-  border-bottom: 1px solid grey;
-  align-items: center;
 }
