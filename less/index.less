@@ -6,6 +6,11 @@
 
 @backgroundcolor: beige;
 
+.box-size() {
+	margin: 2%;
+	width: 60%;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -118,8 +123,9 @@ header {
 .middle-section {
 	display: flex;
 	border-top: 2px solid black;
-	width: 60%;
-	margin: 2%;
+	//width: 60%;
+	//margin: 2%;
+	.box-size();
 	display: flex;
 
 	div {
@@ -152,22 +158,28 @@ header {
 
 .bottom-section {
 	border: 1px solid black;
-	margin: 2%;
-	width: 60%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+	//margin: 2%;
+	//width: 60%;
+	.box-size();
+	//display: flex;
+	//justify-content: center;
+	//align-items: center;
+	text-align: center;
 	padding-bottom: 2%;
 	background-color: @backgroundcolor;
 
 	h2 {
 		font-size: 2rem;
 		margin: 2% 0;
+		width: 100%;
+
+		
 
 	}
-}
+
+	}
+
 
 footer {
 	margin: 2% 30%;
-}
+} 
